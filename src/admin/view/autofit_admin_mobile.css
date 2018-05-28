@@ -1,0 +1,62 @@
+/* RESOLUTION 960px */
+@media screen and (max-width:960px){
+	body > #container{overflow-x:hidden;}
+	#content-wrapper{padding:0 !important;}
+	a.button, .list a.button{font-size:13px;font-weight:bold;}
+	#content{padding:0;clear:both;min-width:100%;overflow-x:hidden;}
+	#header .div1{padding:0;height:auto;min-width:100%;overflow-x:hidden;}
+	#header .div2{padding:4px 0 0;}
+	#footer-bar{margin:0 !important;}
+	#menu{min-width:100%;padding:0;}
+	#form{clear:both;}
+	#dialog{height:530px !important;}
+	#logged-tip{display:none;}
+
+	table td > input, table td > textarea, table td > select{padding:3px;max-width:90px !important;}
+	table.list tr > td:first-child, table.list tr > td:last-child{white-space:normal;display:table-cell !important;}
+	table.list tr > td:nth-child(5), table.list tr > td:nth-child(7){display:none;}
+
+	.breadcrumb, .breadcrumb a{font-weight:bold;margin:5px 8px;}
+	.overview{width:43%;}
+	.statistic{width:55%;}
+
+	.box{margin:8px 0 0;}
+	.box > .heading{border-bottom:none;border-radius:0;}
+	.box > .content{clear:both;padding:0;border:none;overflow:hidden;}
+	.ui-dialog{width:100% !important;}
+	.pagination{height:30px;}
+}
+
+/* RESOLUTION 640px */
+@media screen and (max-width:640px){
+	#content > div{width:auto !important;position:static !important;}
+	#content > img, #menu #help{display:none;}
+	#header .div3{padding:3px 10px 0;}
+	#menu #reports{display:none;}
+	#menu > ul .top{padding:8px 7px 8px 9px;}
+	#menu > ul.right > li:nth-child(2){display:none;}
+	#form > div{width:100%;overflow-x:hidden;display:block !important;}
+	#form > table td{clear:both;padding:2px;display:block;width:auto !important;text-align:center !important;}
+
+	.fixed{right:0;}
+	.box > .heading .buttons{margin-right:0;}
+	.overview{width:100%;}
+	.statistic{display:none;}
+	.scrollbox{width:auto;}
+	.dashboard-content{padding:0px;border:none;}
+	.htabs, .vtabs{display:none;}
+	.vtabs-content{margin-left:0;display:block !important;}
+	.vtabs-content > table.list tr > td, table.from td{display:block;text-align:left !important;padding:3px !important;}
+
+	table > tfoot{display:block;}
+	table.list tr > td{display:none;}
+	table.list tr > td:nth-child(2), table.list tr > td:nth-child(3){display:table-cell !important;}
+	table.form > tbody > tr:nth-child(2n+1) > td{background:#EEE;}
+	table.form > tbody > tr > td:first-child{font-weight:bold;background:#DDD;width:100px !important;}
+}
+
+/* RESOLUTION 420px */
+@media screen and (max-width:420px){
+	#menu #dashboard{display:none;}
+	#menu > ul .selected .top{border-top:1px solid #F00;}
+}

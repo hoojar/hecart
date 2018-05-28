@@ -1,0 +1,27 @@
+/*图片滑动1*/
+.slide-gallery{position:relative;margin:auto;}
+.slide-gallery .slide-a a{display:none;}
+.slide-gallery .slide-a img{border:0px;width:100%;}
+.slide-gallery .slide-nav{position:absolute;bottom:8px;width:100%;text-align:right;}
+.slide-gallery .slide-nav a{text-indent:-9999px;display:block;float:right;border-radius:100%;border:1px solid #BCBCBC;background:#F6F6F4;width:10px;height:10px;padding:0px;color:#FFFFFF;margin-right:10px;text-decoration:none;line-height:30px;text-align:center;}
+.slide-gallery .slide-nav a.sld{background:#D1B9A5;color:#D1B9A5;font-weight:bold;border: 1px solid #BCBCBC;}
+.slide-gallery .slide-nav a:hover{text-decoration:none;}
+.slide-gallery .slide-text{position:absolute;display:none;left:0px;bottom:4px;font-size:15px;padding:0px 10px;font-weight:bold;color:#4B9808;}
+
+/*触摸平方式的窗口*/
+.touch-boxy{padding:2px;min-width:200px;max-width:900px;}
+.touch-boxy iframe{height:100%;width:100%;}
+.touch-boxy-overlay{top:0;left:0;width:100%;position:absolute;opacity:0.8;background:#808080;}
+@media screen and (max-width:640px){.touch-boxy{width:100% !important;position:absolute !important;}}
+
+.touch-boxy div.title-bar{cursor:move;margin-bottom:-1px;padding:0px 5px;height:25px;line-height:25px;color:#333333;background:url("../images/touch-boxy-bg.png") repeat;border:1px solid #DBDBDB;border-radius:5px 5px 0px 0px;}
+.touch-boxy div.title-bar .title{float:left;height:20px;overflow: hidden;width:85%;display:inline-block;}
+.touch-boxy div.title-bar .close{float:right;cursor:pointer;text-decoration:underline;background:url("../images/close.gif") no-repeat right center;text-indent:-99px;width:25px;height:25px;overflow:hidden;}
+.touch-boxy div.content{max-height:600px;overflow:auto;padding:10px;font-size:15px;background-color:#FFFFFF !important;border:1px solid #DBDBDB;box-shadow: 9px 2px 9px rgba(0, 0, 0, 0.3);border-radius:0px 0px 5px 5px;}
+
+.touch-boxy div.sad{padding:15px 10px 15px 55px;background:url("../images/sad.png") no-repeat left center;}
+.touch-boxy div.smile{padding:15px 10px 15px 55px;background:url("../images/smile.png") no-repeat left center;}
+.touch-boxy div.error{padding:15px 10px 15px 55px;background:url("../images/error.png") no-repeat left center;}
+.touch-boxy div.succeed{padding:15px 10px 15px 55px;background:url("../images/succeed.png") no-repeat left center;}
+.touch-boxy div.warning{padding:15px 10px 15px 55px;background:url("../images/warning.png") no-repeat left center;}
+.touch-boxy div.question{padding:15px 10px 15px 55px;background:url("../images/question.png") no-repeat left center;}

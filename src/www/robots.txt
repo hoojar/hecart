@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /view/
+Disallow: /model/
+Disallow: /language/
+Disallow: /product/options?
+Disallow: /product/attributes?

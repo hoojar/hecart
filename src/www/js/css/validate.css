@@ -1,0 +1,41 @@
+/*必填栏*/
+b.fill{
+	background:#FF6600;
+	margin-right:2px;
+}
+
+/*校验数据提示*/
+input.txtipt, textarea.txtipt{
+	padding:5px;
+	border:1px solid #008000;
+	font-size:12px;
+	width:200px;
+	border-radius:5px 0px 0px 5px;
+	box-shadow:2px 2px 2px #B0AEA6;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-box-shadow:2px 2px 2px #B0AEA6;
+	-webkit-box-shadow:2px 2px 2px #B0AEA6;
+}
+
+/*验证码错误提示*/
+label.error{
+	color:#600;
+	font-weight:bold;
+	padding:5px 5px 5px 20px;
+	font-size:12px;
+	display:none;
+	text-align:left;
+	border:1px solid #900;
+	background:#fee url('../images/ipterr.gif') no-repeat 4px center;
+	border-radius:0px 5px 5px 0px;
+	box-shadow:2px 2px 2px #B0AEA6;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-box-shadow:2px 2px 2px #B0AEA6;
+	-webkit-box-shadow:2px 2px 2px #B0AEA6;
+}
